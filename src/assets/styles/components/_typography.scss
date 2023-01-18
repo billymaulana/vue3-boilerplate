@@ -1,0 +1,22 @@
+@for $fs from 1 to 100 {
+  .f-#{$fs} {
+    font-size:$fs+px; 
+  }  
+}  
+
+@for $ls from 1 to 100 {
+  .lh-#{$ls} {
+    line-height:$ls+px; 
+  }
+}  
+
+@for $vc from 1 to 5 {
+  .v-clamp-#{$vc} {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: $vc;
+    -webkit-box-orient: vertical;
+    line-break: auto;
+    overflow-wrap: anywhere;
+  }
+} 
