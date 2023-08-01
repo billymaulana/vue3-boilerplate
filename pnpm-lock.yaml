@@ -16,7 +16,7 @@ specifiers:
   lint-staged: ^13.1.0
   ofetch: ^1.0.0
   pinia: ^2.0.29
-  pnpm: ^7.25.0
+  pnpm: ^7.33.4
   sass: ^1.57.1
   taze: ^0.8.5
   typescript: ^4.9.4
@@ -57,7 +57,7 @@ devDependencies:
   husky: 8.0.3
   jsdom: 20.0.3
   lint-staged: 13.1.0
-  pnpm: 7.25.0
+  pnpm: 7.33.4
   sass: 1.57.1
   taze: 0.8.5
   typescript: 4.9.4
@@ -6477,8 +6477,8 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /pnpm/7.25.0:
-    resolution: {integrity: sha512-FGFQUON8kJ6ma39elJ8lyD8wPIfgp3opGJD9sX0TgIJk4zSr556qCgC8AN+3BFHe4yuRkEauf4JVLW2RKyyEcA==}
+  /pnpm/7.33.4:
+    resolution: {integrity: sha512-xEbf/tkwHpGM/GXq5U/sDSiE6ykLPho+o71PHNRWqkVLm6dJe4G/5Pg619Ow32ovekrr7pii5qtfamujB/+1bA==}
     engines: {node: '>=14.6'}
     hasBin: true
     dev: true
